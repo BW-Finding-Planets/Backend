@@ -5,7 +5,7 @@ const jwToken = require("jsonwebtoken");
 const users = require("../users/users-model.js");
 const secrets = require("../config/secrets.js");
 
-router.post("register", (req, res) => {
+router.post("/register", (req, res) => {
   let user = req.body;
   const hash = bcrypt.hashSync(user.password, 12);
   user.password = hash;

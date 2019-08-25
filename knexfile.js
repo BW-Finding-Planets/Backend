@@ -28,27 +28,28 @@ module.exports = {
       password: "password"
     },
     migrations: {
-      directory: './data/migrations'
+      directory: "./data/migrations"
     },
     seeds: {
-      directory: './data/seeds'
-    },
+      directory: "./data/seeds"
+    }
   },
   testing: {
-    client: 'sqlite3',
+    client: "sqlite3",
     connection: {
-      filename: './data/db/test.sqlite3'
+      filename: "./data/db/test.sqlite3"
     },
     useNullAsDefault: true,
     migrations: {
-      directory: './data/migrations'
+      directory: "./data/migrations"
     },
     seeds: {
-      directory: './data/seeds'
+      directory: "./data/seeds"
     },
     pool: {
       afterCreate: (connection, done) => {
-        connection.run('PRAGMA foreign_keys = ON', done);
+        connection.run("PRAGMA foreign_keys = ON", done);
       }
     }
+  }
 };

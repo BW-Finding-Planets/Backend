@@ -1,4 +1,12 @@
 // Update with your config settings.
+const localPg = {
+  host: process.env.DB_HOST,
+  database: process.env.DB_NAME,
+  user: process.env.DB_USER,
+  password: process.env.DB_PASS
+};
+
+const dbConnection = process.env.DATABASE_URL || localPg;
 
 module.exports = {
   development: {
@@ -21,17 +29,13 @@ module.exports = {
   },
 
   production: {
-    client: "postgresql",
-    connection: process.env.DATABASE_URL || {
-      database: "my_db",
-      user: "username",
-      password: "password"
-    },
+    client: "pg",
+    connection: dbConnection,
     migrations: {
-      directory: "./data/migrations"
+      directory: __dirname + "/data/migrations"
     },
     seeds: {
-      directory: "./data/seeds"
+      directory: __dirname + "/data/seeds"
     }
   },
   testing: {

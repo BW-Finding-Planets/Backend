@@ -33,7 +33,7 @@ exports.seed = function(knex) {
       InsolationFlux: 4.68867,
       veryLikely: 0,
       someWhatLikely: 0,
-      neutral: 0,
+      neutralLikely: 0,
       someWhatUnLikely: 0,
       veryUnLikely: 0
     },

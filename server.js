@@ -14,8 +14,7 @@ server.use(cors());
 
 server.use("/auth", authRouter);
 server.use("/users", restricted, usersRouter);
-// server.use("/users", usersRouter);
-server.use("/stars", starsRouter);
+server.use("/stars", restricted, starsRouter);
 
 server.get("/", (req, res) => {
   res.send("Server.js get route");

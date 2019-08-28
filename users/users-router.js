@@ -1,9 +1,7 @@
 const router = require("express").Router();
 
 const users = require("./users-model.js");
-// const restricted = require("../auth/restricted-middleware.js");
 
-// router.get("/", restricted, (req, res) => {
 router.get("/", (req, res) => {
   users
     .getUsers()
@@ -15,29 +13,15 @@ router.get("/", (req, res) => {
 
 router.get("/:id", validateUserId, (req, res) => {
   res.status(200).json(req.user);
-  // const { id } = req.params;
-  // users
-  //   .getUsersById(id)
-  //   .then(user => {
-  //     res.status(200).json(user);
-  //   })
-  //   .catch(err => {
-  //     res.status(500).json("Internal server error");
-  //   });
 });
 
 router.put("/:id", validateUserId, (req, res) => {
-  // router.put("/:id", (req, res) => {
   const { id } = req.params;
   const changes = req.body;
-  // console.log(req.body);
-  // console.log(id);
-  // console.log(changes);
+
   users
     .updateUser(id, changes)
     .then(user => {
-      // console.log(changes);
-      // console.log(req.body);
       res.status(200).json(user);
     })
     .catch(err => {

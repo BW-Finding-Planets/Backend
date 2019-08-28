@@ -45,7 +45,15 @@ exports.up = function(knex) {
       stars.decimal("maxses");
       stars.decimal("equilibriumTempKelvin");
       stars.decimal("InsolationFlux");
+      stars.integer("VeryLikely");
+      stars.integer("SomeWhatLikely");
+      stars.integer("Neutral");
+      stars.integer("SomeWhatUnLikely");
+      stars.integer("VeryUnLikely");
     });
+  // .createTable("stars_users", stars_users => {
+
+  // })
 };
 
 exports.down = function(knex) {

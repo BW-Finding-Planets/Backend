@@ -28,8 +28,9 @@ router.post("/login", (req, res) => {
     .then(user => {
       if (user && bcrypt.compareSync(password, user.password)) {
         const token = getWebToken(user);
-
+        const id = user.id;
         res.status(200).json({
+          id,
           message: `Welcome to Planets Finder ${user.username}! `,
           token
         });
@@ -38,6 +39,7 @@ router.post("/login", (req, res) => {
       }
     })
     .catch(err => {
+      console.error(err);
       res.status(500).json(err);
     });
 });

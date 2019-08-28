@@ -20,7 +20,7 @@ exports.up = function(knex) {
       stars.string("ticid", 255);
       stars.integer("planetNumber");
       stars.integer("planetCandidateCount");
-      stars.integer("starTeffKelvin");
+      stars.decimal("starTeffKelvin");
       stars.decimal("starLoggCgs");
       stars.decimal("orbitalPeriodDays");
       stars.decimal("orbitalPeriodDays_err");

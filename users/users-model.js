@@ -5,7 +5,8 @@ module.exports = {
   getUsers,
   findBy,
   getUsersById,
-  update
+  update,
+  remove
 };
 
 function getUsers() {
@@ -32,7 +33,7 @@ function add(user) {
     .insert(user, "id")
     .then(ids => {
       const [id] = ids;
-      return findById(id);
+      return getUsersById(id);
     });
 }
 
@@ -41,5 +42,11 @@ function update(id, user) {
     .where({ id })
     .update(user);
 
-  return findById(id);
+  return getUsersById(id);
+}
+
+function remove(id) {
+  return db("users")
+    .where("id", id)
+    .del();
 }

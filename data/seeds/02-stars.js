@@ -33,7 +33,7 @@ exports.seed = function(knex) {
       InsolationFlux: 4.68867,
       veryLikely: 0,
       someWhatLikely: 0,
-      neutral: 0,
+      neutralLikely: 0,
       someWhatUnLikely: 0,
       veryUnLikely: 0
     },
@@ -69,7 +69,7 @@ exports.seed = function(knex) {
       InsolationFlux: 30.0891,
       veryLikely: 0,
       someWhatLikely: 0,
-      neutral: 0,
+      neutralLikely: 0,
       someWhatUnLikely: 0,
       veryUnLikely: 0
     },
@@ -105,7 +105,7 @@ exports.seed = function(knex) {
       InsolationFlux: 3263.61,
       veryLikely: 0,
       someWhatLikely: 0,
-      neutral: 0,
+      neutralLikely: 0,
       someWhatUnLikely: 0,
       veryUnLikely: 0
     },
@@ -141,7 +141,7 @@ exports.seed = function(knex) {
       InsolationFlux: 3264.51,
       veryLikely: 0,
       someWhatLikely: 0,
-      neutral: 0,
+      neutralLikely: 0,
       someWhatUnLikely: 0,
       veryUnLikely: 0
     },
@@ -177,7 +177,7 @@ exports.seed = function(knex) {
       InsolationFlux: 426.317,
       veryLikely: 0,
       someWhatLikely: 0,
-      neutral: 0,
+      neutralLikely: 0,
       someWhatUnLikely: 0,
       veryUnLikely: 0
     },
@@ -213,7 +213,7 @@ exports.seed = function(knex) {
       InsolationFlux: 2242.52,
       veryLikely: 0,
       someWhatLikely: 0,
-      neutral: 0,
+      neutralLikely: 0,
       someWhatUnLikely: 0,
       veryUnLikely: 0
     },
@@ -249,7 +249,7 @@ exports.seed = function(knex) {
       InsolationFlux: 5646.89,
       veryLikely: 0,
       someWhatLikely: 0,
-      neutral: 0,
+      neutralLikely: 0,
       someWhatUnLikely: 0,
       veryUnLikely: 0
     },
@@ -285,7 +285,7 @@ exports.seed = function(knex) {
       InsolationFlux: 5123.85,
       veryLikely: 0,
       someWhatLikely: 0,
-      neutral: 0,
+      neutralLikely: 0,
       someWhatUnLikely: 0,
       veryUnLikely: 0
     },
@@ -321,7 +321,7 @@ exports.seed = function(knex) {
       InsolationFlux: 73.0567,
       veryLikely: 0,
       someWhatLikely: 0,
-      neutral: 0,
+      neutralLikely: 0,
       someWhatUnLikely: 0,
       veryUnLikely: 0
     },
@@ -357,7 +357,7 @@ exports.seed = function(knex) {
       InsolationFlux: 1764.78,
       veryLikely: 0,
       someWhatLikely: 0,
-      neutral: 0,
+      neutralLikely: 0,
       someWhatUnLikely: 0,
       veryUnLikely: 0
     }

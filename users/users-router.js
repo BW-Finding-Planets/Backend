@@ -27,16 +27,21 @@ router.get("/:id", validateUserId, (req, res) => {
 });
 
 router.put("/:id", validateUserId, (req, res) => {
+  // router.put("/:id", (req, res) => {
   const { id } = req.params;
   const changes = req.body;
+  // console.log(req.body);
+  // console.log(id);
   // console.log(changes);
   users
-    .update(id, changes)
-    .then(update => {
-      console.log(update);
-      res.status(200).json(update);
+    .updateUser(id, changes)
+    .then(user => {
+      // console.log(changes);
+      // console.log(req.body);
+      res.status(200).json(user);
     })
     .catch(err => {
+      console.error(err);
       res.status(500).json({ error: "Internal server error" });
     });
 });

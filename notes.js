@@ -67,11 +67,11 @@
     planetNumber: 1,
     planetCandidateCount: 1,
     starTeffKelvin: 3202,
-    starLoggCgs: 4.86375,
+    starLoggCgs: 4.86375, 
     orbitalPeriodDays: 1.62887,
     orbitalPeriodDays_err: 0.0000372,
     planetRadiusEarthRadii: 1.35716,
-    planetRadiusEarthRadii_err: 0.64987,
+    planetRadiusEarthRadii_err: 0.64987, 
     ratioPlanetRadiusToStarRadius: 0.0478141,
     ratioSemiMajorAxisToStarRadius: 16.5309,
     semiMajorAxisAu: 0.0153101,
@@ -188,3 +188,56 @@
 //   stars
 //     .decimal('InsolationFlux')
 // })
+
+.createTable("stars", stars => {
+    stars.increments();
+
+    stars.string("tceid", 255);
+    stars.string("ticid", 255).unique();
+    stars.integer("planetNumber");
+    stars.integer("planetCandidateCount");
+    stars.integer("starTeffKelvin");
+    stars.decimal("starLoggCgs");
+    stars.decimal("orbitalPeriodDays");
+    stars.decimal("orbitalPeriodDays_err");
+    stars.decimal("planetRadiusEarthRadii");
+    stars.decimal("planetRadiusEarthRadii_err");
+    stars.decimal("ratioPlanetRadiusToStarRadius");
+    stars.decimal("ratioSemiMajorAxisToStarRadius");
+    stars.decimal("semiMajorAxisAu");
+    stars.decimal("starRadiusSolarRadii");
+    stars.decimal("transitDepthPpm");
+    stars.decimal("transitDepthPpm_err");
+    stars.decimal("transitDurationHours");
+    stars.decimal("transitEpochBtjd");
+    stars.decimal("transitEpochBtjd_err");
+    stars.decimal("transitIngressTimeHours");
+    stars.decimal("minImpactParameter");
+    stars.decimal("ws_mes");
+    stars.decimal("ws_mesphase");
+    stars.integer("expectedtransitcount");
+    stars.decimal("chiSquare2");
+    stars.decimal("mes");
+    stars.decimal("maxses");
+    stars.decimal("equilibriumTempKelvin");
+    stars.decimal("InsolationFlux");
+    //Community it is a planet count
+    stars.string("startUpvoteCount?")
+
+})
+
+    .createTable('lightCurve', lightCurve => {
+        lightCurve.increments()
+        lightCurve.integer('stars_Id')
+            .unassigned()
+            .notNullable()
+            .references('id')
+            .inTable('stars')
+            .onDelete('CASCADE')
+            .onUpdate('CASCADE')
+    })
+lightCurve.integer('datapoints')
+
+users.string("upvotedStar?");
+
+    .dropTableIfExists("stars")

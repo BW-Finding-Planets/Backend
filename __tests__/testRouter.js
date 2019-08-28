@@ -1,5 +1,4 @@
 const request = require("supertest");
-const bcrypt = require("bcryptjs");
 const db = require("../data/db-config.js");
 const server = require("../server.js");
 
@@ -7,11 +6,11 @@ describe("server", () => {
   beforeEach(async () => {
     await db("users").truncate();
   });
-  it('Tests are tunning with DB_ENV set as "testing"', () => {
+  it('tests are tunning with DB_ENV set as "testing"', () => {
     expect(process.env.DB_ENV).toBe("testing");
   });
   describe("POST /auth/register", () => {
-    it("Should return 201 when a user is added", () => {
+    it("should return 201 when a user is added", () => {
       return request(server)
         .post("/auth/register")
         .send({
@@ -35,13 +34,19 @@ describe("server", () => {
     });
   });
   describe("POST /auth/login", () => {
-    it("should return 200 when a user is logging in", () => {
+    it("should return 200 when a user is logging in", async () => {
+      const user = {
+        username: "admin",
+        password: "password"
+      };
+
+      await request(server)
+        .post("/auth/register")
+        .send(user);
+
       return request(server)
         .post("/auth/login")
-        .send({
-          username: "test",
-          password: bcrypt.hashSync("pass")
-        })
+        .send(user)
         .then(res => {
           expect(res.status).toBe(200);
         });

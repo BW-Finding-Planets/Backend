@@ -13,10 +13,10 @@ router.get("/", (req, res) => {
     .catch(err => res.send(err));
 });
 
-router.put("/:id", validateUserId, (req, res) => {
+router.put("/:id", (req, res) => {
   const { id } = req.params;
   const changes = req.body;
-  console.log(id);
+  // console.log(changes);
   users
     .update(id, changes)
     .then(update => {
@@ -28,24 +28,24 @@ router.put("/:id", validateUserId, (req, res) => {
     });
 });
 
-function validateUserId(req, res, next) {
-  const { id } = req.params;
-  users
-    .findById(id)
-    .then(user => {
-      // console.log(user);
-      if (user) {
-        req.user = user;
-        next();
-      } else {
-        res
-          .status(404)
-          .json({ error: "error in retrieving data validatUserId" });
-      }
-    })
-    .catch(err => {
-      res.status(500).json({ error: "Internal server error: validatUserId" });
-    });
-}
+// function validateUserId(req, res, next) {
+//   const { id } = req.params;
+//   users
+//     .findById(id)
+//     .then(user => {
+//       // console.log(user);
+//       if (user) {
+//         req.user = user;
+//         next();
+//       } else {
+//         res
+//           .status(404)
+//           .json({ error: "error in retrieving data validatUserId" });
+//       }
+//     })
+//     .catch(err => {
+//       res.status(500).json({ error: "Internal server error: validatUserId" });
+//     });
+// }
 
 module.exports = router;

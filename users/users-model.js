@@ -36,8 +36,8 @@ function add(user) {
     });
 }
 
-async function update(id, user) {
-  await db("users")
+function update(id, user) {
+  db("users")
     .where({ id })
     .update(user);
 

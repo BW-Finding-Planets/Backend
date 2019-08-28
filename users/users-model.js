@@ -2,14 +2,19 @@ const db = require("../data/db-config.js");
 
 module.exports = {
   add,
-  find,
+  getUsers,
   findBy,
-  findById
+  getUsersById,
+  updateUser,
+  remove
 };
 
-function find() {
-  return db("users").select("id", "username");
+function getUsers() {
+  return db("users");
 }
+// function find() {
+//   return db("users").select("id", "username");
+// }
 
 function findBy(filter) {
   return db("users")
@@ -17,7 +22,7 @@ function findBy(filter) {
     .first();
 }
 
-function findById(id) {
+function getUsersById(id) {
   return db("users")
     .where({ id })
     .first();
@@ -28,6 +33,20 @@ function add(user) {
     .insert(user, "id")
     .then(ids => {
       const [id] = ids;
-      return findById(id);
+      return getUsersById(id);
     });
+}
+
+function updateUser(id, user) {
+  return db("users")
+    .where({ id })
+    .update(user)
+
+    .then(id1 => getUsersById(id));
+}
+
+function remove(id) {
+  return db("users")
+    .where("id", id)
+    .del();
 }

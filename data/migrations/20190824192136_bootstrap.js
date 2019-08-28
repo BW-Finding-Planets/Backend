@@ -17,7 +17,7 @@ exports.up = function(knex) {
       stars.increments();
 
       stars.string("tceid", 255);
-      stars.string("ticid", 255).unique();
+      stars.string("ticid", 255);
       stars.integer("planetNumber");
       stars.integer("planetCandidateCount");
       stars.integer("starTeffKelvin");

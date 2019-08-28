@@ -30,7 +30,12 @@ exports.seed = function(knex) {
       mes: 8.60686,
       maxses: 7.6734,
       equilibriumTempKelvin: 375.303,
-      InsolationFlux: 4.68867
+      InsolationFlux: 4.68867,
+      veryLikely: 0,
+      someWhatLikely: 0,
+      neutral: 0,
+      someWhatUnLikely: 0,
+      veryUnLikely: 0
     },
     {
       tceid: "00139281803-01",
@@ -61,7 +66,12 @@ exports.seed = function(knex) {
       mes: 8.61389,
       maxses: 7.42655,
       equilibriumTempKelvin: 597.34,
-      InsolationFlux: 30.0891
+      InsolationFlux: 30.0891,
+      veryLikely: 0,
+      someWhatLikely: 0,
+      neutral: 0,
+      someWhatUnLikely: 0,
+      veryUnLikely: 0
     },
     {
       tceid: "00139285666-01",
@@ -92,7 +102,12 @@ exports.seed = function(knex) {
       mes: 7.67025,
       maxses: 4.59272,
       equilibriumTempKelvin: 1927.72,
-      InsolationFlux: 3263.61
+      InsolationFlux: 3263.61,
+      veryLikely: 0,
+      someWhatLikely: 0,
+      neutral: 0,
+      someWhatUnLikely: 0,
+      veryUnLikely: 0
     },
     {
       tceid: "00139285666-02",
@@ -123,7 +138,12 @@ exports.seed = function(knex) {
       mes: 8.90267,
       maxses: 3.59044,
       equilibriumTempKelvin: 1927.85,
-      InsolationFlux: 3264.51
+      InsolationFlux: 3264.51,
+      veryLikely: 0,
+      someWhatLikely: 0,
+      neutral: 0,
+      someWhatUnLikely: 0,
+      veryUnLikely: 0
     },
     {
       tceid: "00139285669-01",
@@ -154,7 +174,12 @@ exports.seed = function(knex) {
       mes: 10.4697,
       maxses: 3.74261,
       equilibriumTempKelvin: 1158.92,
-      InsolationFlux: 426.317
+      InsolationFlux: 426.317,
+      veryLikely: 0,
+      someWhatLikely: 0,
+      neutral: 0,
+      someWhatUnLikely: 0,
+      veryUnLikely: 0
     },
     {
       tceid: "00139300891-01",
@@ -185,7 +210,12 @@ exports.seed = function(knex) {
       mes: 8.15177,
       maxses: 3.00604,
       equilibriumTempKelvin: 1755.11,
-      InsolationFlux: 2242.52
+      InsolationFlux: 2242.52,
+      veryLikely: 0,
+      someWhatLikely: 0,
+      neutral: 0,
+      someWhatUnLikely: 0,
+      veryUnLikely: 0
     },
     {
       tceid: "00139300891-02",
@@ -216,7 +246,12 @@ exports.seed = function(knex) {
       mes: 10.1151,
       maxses: 5.42536,
       equilibriumTempKelvin: 2210.92,
-      InsolationFlux: 5646.89
+      InsolationFlux: 5646.89,
+      veryLikely: 0,
+      someWhatLikely: 0,
+      neutral: 0,
+      someWhatUnLikely: 0,
+      veryUnLikely: 0
     },
     {
       tceid: "00139370701-01",
@@ -247,7 +282,12 @@ exports.seed = function(knex) {
       mes: 8.3912,
       maxses: 2.93959,
       equilibriumTempKelvin: 2157.84,
-      InsolationFlux: 5123.85
+      InsolationFlux: 5123.85,
+      veryLikely: 0,
+      someWhatLikely: 0,
+      neutral: 0,
+      someWhatUnLikely: 0,
+      veryUnLikely: 0
     },
     {
       tceid: "00140609384-01",
@@ -278,7 +318,12 @@ exports.seed = function(knex) {
       mes: 13.3131,
       maxses: 11.6316,
       equilibriumTempKelvin: 745.65,
-      InsolationFlux: 73.0567
+      InsolationFlux: 73.0567,
+      veryLikely: 0,
+      someWhatLikely: 0,
+      neutral: 0,
+      someWhatUnLikely: 0,
+      veryUnLikely: 0
     },
     {
       tceid: "00140659980-01",
@@ -309,7 +354,12 @@ exports.seed = function(knex) {
       mes: 520.391,
       maxses: 262.369,
       equilibriumTempKelvin: 1653.08,
-      InsolationFlux: 1764.78
+      InsolationFlux: 1764.78,
+      veryLikely: 0,
+      someWhatLikely: 0,
+      neutral: 0,
+      someWhatUnLikely: 0,
+      veryUnLikely: 0
     }
   ]);
 };

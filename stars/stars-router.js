@@ -1,8 +1,13 @@
-// const router = require("express").Router();
-// const data = require("../lightCurveData");
+const router = require("express").Router();
+const stars = require("./stars-model.js");
 
-// router.get("/", (req, res) => {
-//   return res.status(200).json({ data });
-// });
+router.get("/", (req, res) => {
+  stars
+    .getStars()
+    .then(star => {
+      res.json(star);
+    })
+    .catch(err => res.send(err));
+});
 
-// module.exports = router;
+module.exports = router;

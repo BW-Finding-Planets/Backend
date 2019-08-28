@@ -4,7 +4,7 @@ module.exports = {
   add,
   getUsers,
   findBy,
-  findById,
+  getUsersById,
   update
 };
 
@@ -21,7 +21,7 @@ function findBy(filter) {
     .first();
 }
 
-function findById(id) {
+function getUsersById(id) {
   return db("users")
     .where({ id })
     .first();

@@ -21,9 +21,9 @@ exports.up = function(knex) {
       stars.string("sector", 255);
       stars.decimal("magnitude");
       stars.string("luminosity", 255);
-      stars.decimal("distance").nullable();
-      stars.decimal("star_mass").nullable();
-      stars.decimal("star_radius").nullable();
+      stars.decimal("distance");
+      stars.decimal("star_mass");
+      stars.decimal("star_radius");
       stars.string("constellation", 255);
       stars.decimal("rightascension");
       stars.decimal("declination");

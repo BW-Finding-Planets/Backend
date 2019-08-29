@@ -1015,7 +1015,7 @@ exports.seed = function(knex) {
       magnitude: 9.8343,
       luminosity: "DWARF",
       distance: 133.314285,
-      star_mass: "",
+      star_mass: 0,
       star_radius: 1.01859,
       constellation: "Aquarius",
       rightascension: 351.7055039,

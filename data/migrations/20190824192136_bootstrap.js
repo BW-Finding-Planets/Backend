@@ -19,7 +19,7 @@ exports.up = function(knex) {
       stars.integer("ticid_x");
       stars.decimal("starTeffKelvin");
       stars.string("sector", 255);
-      stars.integer("magnitude");
+      stars.decimal("magnitude");
       stars.string("luminosity", 255);
       stars.decimal("distance");
       stars.decimal("star_mass");

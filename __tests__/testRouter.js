@@ -64,4 +64,76 @@ describe("server", () => {
         });
     });
   });
+  describe("GET /users/", () => {
+    it("should return 200 ok users", () => {
+      return request(server)
+        .get("/users/")
+        .set(
+          "Authorization",
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE1NjcwOTY2OTYsImV4cCI6MTU2NzM1NTg5Nn0.MLy0403C6L1njBFqiRWYWDGebGb5mSDe7Co1ORKFR_k"
+        )
+        .then(res => {
+          expect(res.status).toBe(200);
+        });
+    });
+    it("should return an array", () => {
+      return request(server)
+        .get("/users/")
+        .set(
+          "Authorization",
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE1NjcwOTY2OTYsImV4cCI6MTU2NzM1NTg5Nn0.MLy0403C6L1njBFqiRWYWDGebGb5mSDe7Co1ORKFR_k"
+        )
+        .then(res => {
+          expect(Array.isArray(res.body)).toBe(true);
+        });
+    });
+  });
+  describe("GET /stars/", () => {
+    it("should return 200 ok users", () => {
+      return request(server)
+        .get("/stars/")
+        .set(
+          "Authorization",
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE1NjcwOTY2OTYsImV4cCI6MTU2NzM1NTg5Nn0.MLy0403C6L1njBFqiRWYWDGebGb5mSDe7Co1ORKFR_k"
+        )
+        .then(res => {
+          expect(res.status).toBe(200);
+        });
+    });
+    it("should return an array", () => {
+      return request(server)
+        .get("/stars/")
+        .set(
+          "Authorization",
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE1NjcwOTY2OTYsImV4cCI6MTU2NzM1NTg5Nn0.MLy0403C6L1njBFqiRWYWDGebGb5mSDe7Co1ORKFR_k"
+        )
+        .then(res => {
+          expect(Array.isArray(res.body)).toBe(true);
+        });
+    });
+  });
+  describe("GET /candidate/", () => {
+    it("should return 200 ok users", () => {
+      return request(server)
+        .get("/candidate/")
+        .set(
+          "Authorization",
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE1NjcwOTY2OTYsImV4cCI6MTU2NzM1NTg5Nn0.MLy0403C6L1njBFqiRWYWDGebGb5mSDe7Co1ORKFR_k"
+        )
+        .then(res => {
+          expect(res.status).toBe(200);
+        });
+    });
+    it("should return an array", () => {
+      return request(server)
+        .get("/candidate/")
+        .set(
+          "Authorization",
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpYXQiOjE1NjcwOTY2OTYsImV4cCI6MTU2NzM1NTg5Nn0.MLy0403C6L1njBFqiRWYWDGebGb5mSDe7Co1ORKFR_k"
+        )
+        .then(res => {
+          expect(Array.isArray(res.body)).toBe(true);
+        });
+    });
+  });
 });

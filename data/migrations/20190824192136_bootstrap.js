@@ -16,44 +16,24 @@ exports.up = function(knex) {
     .createTable("stars", stars => {
       stars.increments();
 
-      stars.string("tceid", 255);
-      stars.string("ticid", 255);
-      stars.integer("planetNumber");
-      stars.integer("planetCandidateCount");
+      stars.integer("ticid_x");
       stars.decimal("starTeffKelvin");
-      stars.decimal("starLoggCgs");
-      stars.decimal("orbitalPeriodDays");
-      stars.decimal("orbitalPeriodDays_err");
-      stars.decimal("planetRadiusEarthRadii");
-      stars.decimal("planetRadiusEarthRadii_err");
-      stars.decimal("ratioPlanetRadiusToStarRadius");
-      stars.decimal("ratioSemiMajorAxisToStarRadius");
-      stars.decimal("semiMajorAxisAu");
-      stars.decimal("starRadiusSolarRadii");
-      stars.decimal("transitDepthPpm");
-      stars.decimal("transitDepthPpm_err");
-      stars.decimal("transitDurationHours");
-      stars.decimal("transitEpochBtjd");
-      stars.decimal("transitEpochBtjd_err");
-      stars.decimal("transitIngressTimeHours");
-      stars.decimal("minImpactParameter");
-      stars.decimal("ws_mes");
-      stars.decimal("ws_mesphase");
-      stars.integer("expectedtransitcount");
-      stars.decimal("chiSquare2");
-      stars.decimal("mes");
-      stars.decimal("maxses");
-      stars.decimal("equilibriumTempKelvin");
-      stars.decimal("InsolationFlux");
+      stars.string("sector", 255);
+      stars.integer("magnitude");
+      stars.string("luminosity", 255);
+      stars.decimal("distance");
+      stars.decimal("star_mass");
+      stars.decimal("star_radius");
+      stars.string("constellation", 255);
+      stars.decimal("rightascension");
+      stars.decimal("declination");
+      stars.decimal("predictions");
       stars.integer("veryLikely");
       stars.integer("someWhatLikely");
       stars.integer("neutralLikely");
       stars.integer("someWhatUnLikely");
       stars.integer("veryUnLikely");
     });
-  // .createTable("stars_users", stars_users => {
-
-  // })
 };
 
 exports.down = function(knex) {

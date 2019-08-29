@@ -30,7 +30,12 @@
     constellation: "Mensa",
     rightascension: 79.52228552,
     declination: -80.96457906,
-    predictions: 0.67845535
+    predictions: 0.67845535,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 263003176,
@@ -44,7 +49,12 @@
     constellation: "Octans",
     rightascension: 12.54126979,
     declination: -83.74389828,
-    predictions: 0.68190014
+    predictions: 0.68190014,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 89020549,
@@ -58,7 +68,12 @@
     constellation: "Grus",
     rightascension: 338.3994515,
     declination: -43.43664354,
-    predictions: 0.68703693
+    predictions: 0.68703693,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 62483237,
@@ -72,7 +87,12 @@
     constellation: "Pisces Austrinus",
     rightascension: 336.4022757,
     declination: -34.90958285,
-    predictions: 0.69341165
+    predictions: 0.69341165,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 140068425,
@@ -86,7 +106,12 @@
     constellation: "Grus",
     rightascension: 330.3015634,
     declination: -49.06001097,
-    predictions: 0.7002207
+    predictions: 0.7002207,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 425934411,
@@ -100,7 +125,12 @@
     constellation: "Tucana",
     rightascension: 4.60580187,
     declination: -62.8478975,
-    predictions: 0.7078872
+    predictions: 0.7078872,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 260985861,
@@ -114,7 +144,12 @@
     constellation: "Mensa",
     rightascension: 76.635855,
     declination: -80.768181,
-    predictions: 0.715548
+    predictions: 0.715548,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 271893367,
@@ -128,7 +163,12 @@
     constellation: "Volans",
     rightascension: 112.9656531,
     declination: -73.60615265,
-    predictions: 0.72238797
+    predictions: 0.72238797,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 140691463,
@@ -142,7 +182,12 @@
     constellation: "Mensa",
     rightascension: 73.70122089,
     declination: -76.6805246,
-    predictions: 0.72816676
+    predictions: 0.72816676,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 394657039,
@@ -156,7 +201,12 @@
     constellation: "Mensa",
     rightascension: 51.78201569,
     declination: -78.54983928,
-    predictions: 0.732221
+    predictions: 0.732221,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 348770361,
@@ -170,7 +220,12 @@
     constellation: "Octans",
     rightascension: 46.68607308,
     declination: -82.31639106,
-    predictions: 0.73476
+    predictions: 0.73476,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 179317684,
@@ -184,7 +239,12 @@
     constellation: "Mensa",
     rightascension: 79.76815428,
     declination: -71.89559735,
-    predictions: 0.73533684
+    predictions: 0.73533684,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 149990841,
@@ -198,7 +258,12 @@
     constellation: "Dorado",
     rightascension: 90.662314,
     declination: -64.819485,
-    predictions: 0.7324499
+    predictions: 0.7324499,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 183120439,
@@ -212,7 +277,12 @@
     constellation: "Tucana",
     rightascension: 16.77834703,
     declination: -75.19887797,
-    predictions: 0.7272839
+    predictions: 0.7272839,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 394698182,
@@ -226,7 +296,12 @@
     constellation: "Mensa",
     rightascension: 54.98854895,
     declination: -83.08858219,
-    predictions: 0.7193993
+    predictions: 0.7193993,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 309257814,
@@ -240,7 +315,12 @@
     constellation: "Carina",
     rightascension: 124.2695571,
     declination: -63.21348639,
-    predictions: 0.7091035
+    predictions: 0.7091035,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 425997655,
@@ -254,7 +334,12 @@
     constellation: "Reticulum",
     rightascension: 55.45999645,
     declination: -62.76707766,
-    predictions: 0.69612586
+    predictions: 0.69612586,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 262530407,
@@ -268,7 +353,12 @@
     constellation: "Phoenix",
     rightascension: 20.43912639,
     declination: -46.71437969,
-    predictions: 0.6807005
+    predictions: 0.6807005,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 76923707,
@@ -282,7 +372,12 @@
     constellation: "Sculptor",
     rightascension: 352.1719592,
     declination: -34.49139876,
-    predictions: 0.6641496
+    predictions: 0.6641496,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 183979262,
@@ -296,7 +391,12 @@
     constellation: "Hydrus",
     rightascension: 21.64918254,
     declination: -72.7489643,
-    predictions: 0.6467253
+    predictions: 0.6467253,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 183985250,
@@ -310,7 +410,12 @@
     constellation: "Sculptor",
     rightascension: 358.667547,
     declination: -37.62802,
-    predictions: 0.6368718
+    predictions: 0.6368718,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 12421862,
@@ -324,7 +429,12 @@
     constellation: "Sculptor",
     rightascension: 2.26815992,
     declination: -27.12213329,
-    predictions: 0.63792217
+    predictions: 0.63792217,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 309792357,
@@ -338,7 +448,12 @@
     constellation: "Dorado",
     rightascension: 80.10548119,
     declination: -59.89568431,
-    predictions: 0.60008705
+    predictions: 0.60008705,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 350618622,
@@ -352,7 +467,12 @@
     constellation: "Pictor",
     rightascension: 87.40172456,
     declination: -54.91070911,
-    predictions: 0.35847184
+    predictions: 0.35847184,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 355509914,
@@ -366,7 +486,12 @@
     constellation: "Tucana",
     rightascension: 15.5248899,
     declination: -59.08775736,
-    predictions: 0.02655831
+    predictions: 0.02655831,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 259962054,
@@ -380,7 +505,12 @@
     constellation: "Hydrus",
     rightascension: 43.01870757,
     declination: -67.68765901,
-    predictions: 0.000014
+    predictions: 0.000014,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 281781375,
@@ -394,7 +524,12 @@
     constellation: "Tucana",
     rightascension: 12.97525988,
     declination: -59.34300514,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 281575427,
@@ -408,7 +543,12 @@
     constellation: "Phoenix",
     rightascension: 7.97521607,
     declination: -56.96510093,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 55650590,
@@ -422,7 +562,12 @@
     constellation: "Dorado",
     rightascension: 73.73723136,
     declination: -62.52235199,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 314865962,
@@ -436,7 +581,12 @@
     constellation: "Hydrus",
     rightascension: 53.28131051,
     declination: -72.74424326,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 52204645,
@@ -450,7 +600,12 @@
     constellation: "Tucana",
     rightascension: 19.39431617,
     declination: -66.90247008,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 141608198,
@@ -464,7 +619,12 @@
     constellation: "Mensa",
     rightascension: 88.96058444,
     declination: -73.9846888,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 167415965,
@@ -478,7 +638,12 @@
     constellation: "Volans",
     rightascension: 99.46071647,
     declination: -70.93261329,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 32090583,
@@ -492,7 +657,12 @@
     constellation: "Hydrus",
     rightascension: 58.42034938,
     declination: -68.73945051,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 150098860,
@@ -506,7 +676,12 @@
     constellation: "Pictor",
     rightascension: 91.79986213,
     declination: -61.99691543,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 316937670,
@@ -520,7 +695,12 @@
     constellation: "Phoenix",
     rightascension: 356.4903686,
     declination: -56.34467193,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 144440290,
@@ -534,7 +714,12 @@
     constellation: "Phoenix",
     rightascension: 359.1615035,
     declination: -44.71907803,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 326453034,
@@ -548,7 +733,12 @@
     constellation: "Pisces Austrinus",
     rightascension: 339.6776702,
     declination: -25.63173374,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 70797900,
@@ -562,7 +752,12 @@
     constellation: "Sculptor",
     rightascension: 1.97739534,
     declination: -29.97899045,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 47525799,
@@ -576,7 +771,12 @@
     constellation: "Aquarius",
     rightascension: 343.8797203,
     declination: -24.4096526,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 2760710,
@@ -590,7 +790,12 @@
     constellation: "Aquarius",
     rightascension: 356.5276987,
     declination: -16.69124911,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 160074939,
@@ -604,7 +809,12 @@
     constellation: "Grus",
     rightascension: 346.3190895,
     declination: -36.9455321,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 415969908,
@@ -618,7 +828,12 @@
     constellation: "Aquarius",
     rightascension: 343.710059,
     declination: -18.91182841,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 12423815,
@@ -632,7 +847,12 @@
     constellation: "Sculptor",
     rightascension: 2.5687407,
     declination: -26.28239659,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 280095254,
@@ -646,7 +866,12 @@
     constellation: "Hydrus",
     rightascension: 46.19618478,
     declination: -73.3965754,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 305048087,
@@ -660,7 +885,12 @@
     constellation: "Sculptor",
     rightascension: 353.2427916,
     declination: -29.41505245,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 9006668,
@@ -674,7 +904,12 @@
     constellation: "Aquarius",
     rightascension: 349.2313233,
     declination: -18.60664543,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 101948569,
@@ -688,7 +923,12 @@
     constellation: "Phoenix",
     rightascension: 14.75474531,
     declination: -44.16082457,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 118327550,
@@ -702,7 +942,12 @@
     constellation: "Sculptor",
     rightascension: 10.57058722,
     declination: -36.71816999,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 154618248,
@@ -716,7 +961,12 @@
     constellation: "Pisces Austrinus",
     rightascension: 345.77877,
     declination: -33.500373,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 179985715,
@@ -730,7 +980,12 @@
     constellation: "Sculptor",
     rightascension: 14.08042007,
     declination: -38.94870441,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 322063810,
@@ -744,7 +999,12 @@
     constellation: "Phoenix",
     rightascension: 14.31779137,
     declination: -51.58464354,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   },
   {
     ticid_x: 49687222,
@@ -758,6 +1018,11 @@
     constellation: "Aquarius",
     rightascension: 351.7055039,
     declination: -11.72537486,
-    predictions: 0
+    predictions: 0,
+    veryLikely: 0,
+    someWhatLikely: 0,
+    neutralLikely: 0,
+    someWhatUnLikely: 0,
+    veryUnLikely: 0
   }
 ];

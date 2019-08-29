@@ -207,3 +207,49 @@ stars
 lightCurve.integer("datapoints");
 
 users.string("upvotedStar?");
+
+{
+      username: "user",
+      password: "pass",
+      email: "email@email.com",
+      firstName: "John",
+      lastName: "Doe",
+      profession: "Planet Hunter"
+    }
+
+{
+      tceid: "00139250626-01",
+      ticid: 139250626,
+      planetNumber: 1,
+      planetCandidateCount: 1,
+      starTeffKelvin: 3752,
+      starLoggCgs: 4.438,
+      orbitalPeriodDays: 31.3318,
+      orbitalPeriodDays_err: 0.00267395,
+      planetRadiusEarthRadii: 3.13843,
+      planetRadiusEarthRadii_err: 1.1241,
+      ratioPlanetRadiusToStarRadius: 0.0287481,
+      ratioSemiMajorAxisToStarRadius: 65.7255,
+      semiMajorAxisAu: 0.194601,
+      starRadiusSolarRadii: 1,
+      transitDepthPpm: 988.228,
+      transitDepthPpm_err: 119.204,
+      transitDurationHours: 3.7466,
+      transitEpochBtjd: 1347.45,
+      transitEpochBtjd_err: 0.00189868,
+      transitIngressTimeHours: 0.104707,
+      minImpactParameter: 0.00341183,
+      ws_mes: 6.18694,
+      ws_mesphase: 1.79583,
+      expectedtransitcount: 2,
+      chiSquare2: 4.2702,
+      mes: 8.60686,
+      maxses: 7.6734,
+      equilibriumTempKelvin: 375.303,
+      InsolationFlux: 4.68867,
+      veryLikely: 0,
+      someWhatLikely: 0,
+      neutralLikely: 0,
+      someWhatUnLikely: 0,
+      veryUnLikely: 0
+    }

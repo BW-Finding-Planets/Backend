@@ -14,9 +14,11 @@ router.get("/", (req, res) => {
 router.put("/:id/veryLikely", (req, res) => {
   const { id } = req.params;
   const changes = req.body;
+
   planetCandidate
     .veryLikely(id, changes)
     .then(star => {
+      //   console.log("star", star);
       res.status(200).json(star);
     })
     .catch(err => {
@@ -28,7 +30,7 @@ router.put("/:id/someWhatLikely", (req, res) => {
   const { id } = req.params;
   const changes = req.body;
   planetCandidate
-    .veryLikely(id, changes)
+    .someWhatLikely(id, changes)
     .then(star => {
       res.status(200).json(star);
     })
@@ -41,7 +43,7 @@ router.put("/:id/neutralLikely", (req, res) => {
   const { id } = req.params;
   const changes = req.body;
   planetCandidate
-    .veryLikely(id, changes)
+    .neutralLikely(id, changes)
     .then(star => {
       res.status(200).json(star);
     })
@@ -54,7 +56,7 @@ router.put("/:id/someWhatUnLikely", (req, res) => {
   const { id } = req.params;
   const changes = req.body;
   planetCandidate
-    .veryLikely(id, changes)
+    .someWhatUnLikely(id, changes)
 
     .then(star => {
       res.status(200).json(star);
@@ -68,7 +70,7 @@ router.put("/:id/veryUnLikely", (req, res) => {
   const { id } = req.params;
   const changes = req.body;
   planetCandidate
-    .veryLikely(id, changes)
+    .veryUnLikely(id, changes)
     .then(star => {
       res.status(200).json(star);
     })

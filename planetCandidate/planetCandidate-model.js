@@ -1,13 +1,20 @@
 const db = require("../data/db-config.js");
 
 module.exports = {
+  getStarsById,
   getStats,
   veryLikely,
   someWhatLikely,
-  neutral,
+  neutralLikely,
   someWhatUnLikely,
   veryUnLikely
 };
+
+function getStarsById(id) {
+  return db("stars")
+    .where({ id })
+    .first();
+}
 
 function getStats() {
   return db("stars").select(
@@ -20,37 +27,87 @@ function getStats() {
   );
 }
 
-function veryLikely(id, count) {
+// function getLikely(id) {
+//   return db("stars")
+//     .select("veryLikely")
+//     .where({ id })
+//     .first();
+// }
+
+async function veryLikely(id, count) {
+  let newCount = await db("stars")
+    .select("veryLikely")
+    .where({ id })
+    .first();
+
   return db("stars")
     .select("veryLikely")
     .where({ id })
-    .update(count);
+    .update({
+      veryLikely: newCount.veryLikely + parseInt(count.veryLikely, 10)
+    });
 }
 
-function someWhatLikely() {
+async function someWhatLikely(id, count) {
+  let newCount = await db("stars")
+    .select("someWhatLikely")
+    .where({ id })
+    .first();
+
   return db("stars")
     .select("someWhatLikely")
     .where({ id })
-    .update(count);
+    .update({
+      someWhatLikely:
+        newCount.someWhatLikely + parseInt(count.someWhatLikely, 10)
+    });
 }
 
-function neutral() {
+async function neutralLikely(id, count) {
+  let newCount = await db("stars")
+    .select("neutralLikely")
+    .where({ id })
+    .first();
+
   return db("stars")
     .select("neutralLikely")
     .where({ id })
-    .update(count);
+    .update({
+      neutralLikely: newCount.neutralLikely + parseInt(count.neutralLikely, 10)
+    });
 }
 
-function someWhatUnLikely() {
+async function someWhatUnLikely(id, count) {
+  let newCount = await db("stars")
+    .select("someWhatUnLikely")
+    .where({ id })
+    .first();
+
   return db("stars")
     .select("someWhatUnLikely")
     .where({ id })
-    .update(count);
+    .update({
+      someWhatUnLikely:
+        newCount.someWhatUnLikely + parseInt(count.someWhatUnLikely, 10)
+    });
 }
 
-function veryUnLikely() {
+async function veryUnLikely(id, count) {
+  let newCount = await db("stars")
+    .select("veryUnLikely")
+    .where({ id })
+    .first();
+
   return db("stars")
     .select("veryUnLikely")
     .where({ id })
-    .update(count);
+    .update({
+      veryUnLikely: newCount.veryUnLikely + parseInt(count.veryUnLikely, 10)
+    });
 }
+// function veryUnLikely() {
+//   return db("stars")
+//     .select("veryUnLikely")
+//     .where({ id })
+//     .update(count);
+// }

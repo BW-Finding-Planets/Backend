@@ -27,10 +27,30 @@ function veryLikely(id, count) {
     .update(count);
 }
 
-function someWhatLikely() {}
+function someWhatLikely() {
+  return db("stars")
+    .select("someWhatLikely")
+    .where({ id })
+    .update(count);
+}
 
-function neutral() {}
+function neutral() {
+  return db("stars")
+    .select("neutralLikely")
+    .where({ id })
+    .update(count);
+}
 
-function someWhatUnLikely() {}
+function someWhatUnLikely() {
+  return db("stars")
+    .select("someWhatUnLikely")
+    .where({ id })
+    .update(count);
+}
 
-function veryUnLikely() {}
+function veryUnLikely() {
+  return db("stars")
+    .select("veryUnLikely")
+    .where({ id })
+    .update(count);
+}

@@ -13,10 +13,10 @@ function getStats() {
   return db("stars").select(
     "id",
     "veryLikely",
-    "SomeWhatLikely",
-    "Neutral",
-    "SomeWhatUnLikely",
-    "VeryUnLikely"
+    "someWhatLikely",
+    "neutralLikely",
+    "someWhatUnLikely",
+    "veryUnLikely"
   );
 }
 

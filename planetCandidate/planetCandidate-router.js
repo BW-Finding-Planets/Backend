@@ -14,11 +14,9 @@ router.get("/", (req, res) => {
 router.put("/:id/veryLikely", (req, res) => {
   const { id } = req.params;
   const changes = req.body;
-
   planetCandidate
     .veryLikely(id, changes)
     .then(star => {
-      //   console.log("star", star);
       res.status(200).json(star);
     })
     .catch(err => {
